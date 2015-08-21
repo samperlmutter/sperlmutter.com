@@ -1,0 +1,87 @@
+html {
+	background: url(../images/GasClouds.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	font-family: 'Helvetica';
+	font-size: 20px;
+	line-height: 1.7em;
+	padding: 0;
+	margin: 0;
+	word-wrap: break-word;
+}
+
+#main-content {
+	background: -webkit-linear-gradient(#297ACC, #000000);
+	display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+	padding: 2.5vh 2vw 24vw;
+	border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+	margin: 0px 2.5vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+}
+
+h1 {
+	margin: 75px 5%;
+	color: #297ACC;
+	font-size: 3em;
+}
+
+h2.header {
+	
+}
+
+#menu {
+	margin: 0px 2.5vw;
+}
+
+#menu ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #297ACC;
+	margin: 0;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom: 2px solid #103152;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a:link, a:visited {
+	padding: 5px 0.75vw;
+	display: block;
+	width: auto;
+	color: #7AA3CC;
+	text-align: center;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	background-color: #1D558F;
+}
+
+h3 > a:link, h3 > a:visited {
+	color: #D4E4F5;
+	text-decoration: underline;
+}
+
+iframe {
+	border-style: none;
+	display: block;
+	margin: 0 auto;
+	width: 50vw;
+	height: 40vw;
+}
